@@ -68,3 +68,19 @@ group by category, item_purchased
 select item_rank, category, item_purchased, total_order
 from item_counts
 where item_rank <= 3;
+
+-- q9 are customers who are repeat buyers (more then 5 previous purchases) also like to  subscribe?
+select subscription_status, 
+count(customer_id) as repeat_buyers
+from customer
+where previous_purchases > 5
+group by subscription_status
+
+
+-- q10 what is the revenue contribution of each age groups?
+
+select age_group,
+sum(purchase_amount) as total_revenue
+from customer
+group by age_group
+order by total_revenue desc
