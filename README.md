@@ -69,6 +69,11 @@ Before diving into SQL analysis, we used Python (Pandas) to clean, validate, and
 
     * Loaded the fully cleaned and transformed DataFrame directly into a SQL table named ```customer```, making it ready for complex querying.
 
+
+![Question 1](./Screenshots/dataset_info.png)
+![Question 1](./Screenshots/dataset_describe.png)
+![Question 1](./Screenshots/dataset_isnull.png)
+
 ### 🔗 Connecting Python to PostgreSQL
 To analyze the data in SQL, we established a connection between our Pandas DataFrame and the Postgres database using the `sqlalchemy` library.
 
