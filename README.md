@@ -336,3 +336,5 @@ The dashboard provides an interactive view of the analysis. Below is the step-by
 
 ## 📞 Contact
 Author: **Ritesh Brahmachari**
+GitHub: [GitHub](https://github.com/Ritesh-456)
+linkedIn: [LinkedIn](https://www.linkedin.com/in/ritesh-brahmachari-1b7b84278/)
